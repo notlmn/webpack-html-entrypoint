@@ -1,5 +1,7 @@
 # webpack-html-entrypoint
 
+> Disclaimer: this repo is not named to reflect what it is meant to do, read along at your own risk
+
 [extract-loader](https://github.com/peerigon/extract-loader) lets you extract CSS and HTML, have them as (almost) first class modules in Webpack. But it does [not support](https://github.com/peerigon/extract-loader/issues/6) extracting JS , and has no intentions of supporting anytime soon.
 
 This repo is structured in such way to support JS extract (beware, only to some extent) using extract-loader and some other loaders. And as such it does come with some pitfalls
